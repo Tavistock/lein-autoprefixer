@@ -6,9 +6,9 @@ A Leiningen plugin to use [Autoprefixer](https://github.com/postcss/autoprefixer
 
 ## Usage
 
-You must have `autoprefixer` and `postcss-cli` available on the command line.
+Add this to your project.clj `:plugins` and make sure `autoprefixer` and `postcss-cli` available on the command line.
 
-In your project.clj set the `:src` to the path of the css and an optional `:browser` using the [browserslist format](https://github.com/browserslist/browserslist):
+Options for this plugin are a `:src` to the path of the css folder and an optional `:browsers` using the [browserslist format](https://github.com/browserslist/browserslist):
 
 ``` clojure
 :autoprefixer {:src "resources/public/css"
@@ -31,5 +31,4 @@ Or make an alias in your project.clj, this runs sass then autoprefixer:
 
 Copyright © 2019
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License version 1.0.
