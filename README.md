@@ -6,7 +6,7 @@ A Leiningen plugin to use [Autoprefixer](https://github.com/postcss/autoprefixer
 
 ## Usage
 
-You must have `autoprefixer` and `postcss-cli` installed via `lein-npm` or `:npm-deps`.
+You must have `autoprefixer` and `postcss-cli` available on the command line.
 
 In your project.clj set the `:src` to the path of the css and an optional `:browser` using the [browserslist format](https://github.com/browserslist/browserslist):
 
